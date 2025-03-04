@@ -133,10 +133,12 @@ body {
 
 @media (max-width: 75rem){ /* condicao pra reordenar os itens da pagina */
     .cabecalho {
-        padding: 5%; /* superior, direito, inferior, esquerdo */        
+        padding: 2% 0 0 2%; /* superior, direito, inferior, esquerdo */        
     }
     .cabecalho__menu {
         justify-content: center;
+        gap: 1.5rem;
+        font-size: 0.5rem;
     }
     .apresentacao { 
         flex-direction: column-reverse;
